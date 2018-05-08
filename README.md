@@ -1,4 +1,4 @@
-# Instagram Clone Api <small>( GraphQL, Heroku Postgres, and Express )</small>
+# Instagram Clone Api <small>(GraphQL, Heroku Postgres, and Express)</small>
 
 <br>
 
@@ -55,3 +55,7 @@ type Comment {
 // }
 
 ```
+
+Project dates: 5/7/2018 - Current
+
+Currently working on building database in postgres. 
