@@ -1,0 +1,27 @@
+const typeDefs = `
+
+type User {
+  email: String
+  token: String
+}
+
+type Query {
+  users: [User]
+}
+
+type Mutation {
+
+  signup(email: String!, password: String!): User!
+
+  signin(email: String!, password: String!): User!
+
+}
+
+type Subscription {
+  userAdded(fullRepoName: String!): User!
+}
+
+
+`
+
+module.exports = typeDefs
